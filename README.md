@@ -23,10 +23,17 @@ Supported activity: visit, upload, download, and delete photo; access to SQL dat
     })("PUT_ID_HERE")
 ```
 * To access the SQL database, go to `http://localhost:8080/h2-console` and delete any username or password that
-might pop up in the username or password box, and hit CONNECT. There will be a table initialize and
-you can use SQL queries to check the photo data in the database.
+might pop up in the username or password box, and hit CONNECT. 
+* If can't connect, check the JDBC URL and see if the provided path is the same with that in
+src > main > resources > application.properties. Check the data source URL. Reconfigure it if you like:\
+\
+![img_4.png](img_4.png)
+* There will be a table initialize and
+you can use SQL queries to check the photo data in the database.\
+\
 ![img_1.png](img_1.png)\
 To display the current table of data, hit `Run Selected` button and the table will be displayed as follows:\
+\
 ![img_2.png](img_2.png)
 
 
