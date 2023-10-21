@@ -1,4 +1,4 @@
-## Spring Boot Photo Databse
+# Spring Boot Photo Databse
 
 A backend project using Spring Boot and SQL to build a photo database.\
 Supported activity: visit, upload, download, and delete photo; access to SQL database.
