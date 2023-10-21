@@ -5,7 +5,8 @@ Supported activity: visit, upload, download, and delete photo; access to SQL dat
 
 ### User Instruction
 * IDE: IntelliJ, with Java 17 installed. (Make sure it's 17 !)
-* Run `PhotozCloneApplication` and open in your browser. Usually the port is `localhost:8080`
+* Run `PhotozCloneApplication` in src > main > java > com.jetbrains.springproject.photoz.clone
+* Open in your browser. Usually the port is `localhost:8080`
 
 ### Website Instruction
 * Home site contains "Hello world"
